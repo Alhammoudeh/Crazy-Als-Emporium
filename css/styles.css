@@ -1,36 +1,34 @@
 body{
   font-family: sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #33A9FF;
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-
-}
-
-h3{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
   color: #8f8f8f;
 }
+
+/* Headings Section */
+
+.large-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container Section */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
 
 /* Navagation Bar */
 
@@ -60,6 +58,19 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title {
+  background-color: #33A9FF;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%
+}
+
+
 /* Title Image */
 
 .title-image {
@@ -72,7 +83,6 @@ p {
 /* Features */
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
@@ -90,12 +100,10 @@ p {
 
 .iconfeats {
   padding: 5%;
-  text-align: center;
 }
 
 /*Testimonials Sections*/
 #testimonials {
-  text-align: center;
   background-color: #33A9FF;
   color: #fff;
 }
@@ -107,13 +115,14 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
 
 #press {
   background-color: #33A9FF;
-  text-align: center;
   padding-bottom: 3%
 }
 
@@ -126,40 +135,33 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column{
   padding: 3% 2%;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* CTA Section */
 
 #cta {
   background-color: #33A9FF;
-  padding: 7% 15%;
-  text-align: center;
   color: #fff;
-}
-
-.cta-heading{
-  font-size: 3rem;
-  line-height: 1.5;
-  text-align: center;
 }
 
 /* Footer Section */
 
 #footer {
-  text-align: center;
-  padding: 7% 15%;
   background-color: #fff;
 
 }
 
 .f-icons{
   margin: 0% 1% 1.5% 1%;
-  text-align: center;
 
 }
 
