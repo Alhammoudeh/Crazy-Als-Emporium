@@ -29,6 +29,16 @@ p {
   padding: 7% 15%;
 }
 
+/* Color Sections */
+
+.blue-section{
+  background-color: #33A9FF;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
 
 /* Navagation Bar */
 
@@ -60,14 +70,9 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #33A9FF;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid {
-  padding: 3% 15% 7%
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 
@@ -83,7 +88,6 @@ p {
 /* Features */
 
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -103,10 +107,7 @@ p {
 }
 
 /*Testimonials Sections*/
-#testimonials {
-  background-color: #33A9FF;
-  color: #fff;
-}
+
 
 .testimonial-image{
   height: 200px;
@@ -148,10 +149,6 @@ p {
 
 /* CTA Section */
 
-#cta {
-  background-color: #33A9FF;
-  color: #fff;
-}
 
 /* Footer Section */
 
